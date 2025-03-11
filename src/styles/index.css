@@ -1,11 +1,55 @@
-/* 
+/*
 
     You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
+
+
+    ...Or you can use the import command to include
     other sylesheets into your bunde as well, e.j:
-    
+
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.tabla{
+
+    text-align: center;
+    margin-top: 30px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+.taks:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    margin-top: 10px;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 3px;
+    font-size: 40px;
+    font-family: Helvetica;
+}
+.delete {
+    display: none;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 400px;
+    cursor: pointer;
+    font-size: 10px;
+    border-radius: 3px;
+  }
+  .taks:hover .delete{
+    color: black;
+    display: block;
+  }
+.tareasPendientes{
+    display: flex;
+    margin-left: 10px;
+}
+.texto{
+    margin-left: 3px;
+}
